@@ -1,0 +1,45 @@
+<!--合作伙伴 start-->
+<?
+// 合作伙伴列表
+$sql_src_list = "SELECT id,src_title,src_img,src_url FROM {$tablehead}src order by id ";
+// logString(__FILE__, "sql_src_list: $sql_src_list");
+$result_src_list = @mysql_query($sql_src_list,$myconn);
+
+$strSrcs = "\r\n";
+for($i=0; $row = mysql_fetch_array($result_src_list); $i++)
+{
+	$strSrcs .= "\r\n<a href=\"$row[src_url]\" target=\"_blank\">
+			<img height=\"70\" width=\"170\" alt=\"$row[src_title]\" src=\"" . ADMIN_ROOT.$row["src_img"] . "\" /></a>";
+}
+?>
+
+<div id="teamworkMate">
+	<div class="teamworkMateCon">
+    	<div class="teamworkMateImg">
+        	<a href="javascript:void(0);" class="btn-l"><img src="images/btn-l.gif" /></a>
+            <div class="teamworkMateImgDiv">
+            	<div class="teamworkMateImgDivCon">
+                	<?=$strSrcs?>
+                </div>            
+            </div>
+        	<a href="javascript:void(0);" class="btn-r"><img src="images/btn-r.gif" /></a>
+        </div>
+        <span class="teamworkMateTitle">合作伙伴</span>
+    </div>
+</div>
+<!--合作伙伴 end-->
+
+<!--脚注 start-->
+<div id="footer">
+	<div class="footerCon">
+    	<div class="footerCon-r">
+			<a href="articleDetail.php?pritype=5&sectype=&artid=4">关于我们</a>
+			丨<a href="articleDetail.php?pritype=5&sectype=&artid=5">联系我们</a>
+			丨<a href="http://www.gudongqun.com/x/fzzpzz" target="_blank" >加入协会</a>
+			丨<a href="partners.php">合作伙伴</a>
+			<a href="#top" class="returnTop" title="回到网页顶部">返回顶部</a>
+		</div>
+    	<span class="footerConEng">Copyright &copy; http://www.ceibsmobi.com All rights reserved</span>
+    </div>
+</div>
+<!--脚注 end-->

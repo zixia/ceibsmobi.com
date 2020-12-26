@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteRule member(/?)$	memberList.php
+RewriteRule member/([0-9]+)\.html$	memberDetail.php?id=$1
+RewriteRule advisor(/?)$	memberList.php?lead_type=1
+RewriteRule advisor/([0-9]+)\.html$	memberDetail.php?id=$1&lead_type=1
+RewriteRule event(/?)$	articleList.php?pritypename=event
+RewriteRule event/([0-9]+)\.html$	articleDetail.php?pritypename=event&artid=$1
+RewriteRule news(/?)$	articleList.php?pritypename=news
+RewriteRule news/([0-9]+)\.html$	articleDetail.php?pritypename=news&artid=$1

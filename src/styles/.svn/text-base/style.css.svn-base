@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS reset */
+/*通用样式*/
+html,body,div,ul,li,table,tr,td,dt,dd,dl,p,h1,h2,h3,h4,h5,h6,form,input,select,textarea{margin:0;padding:0;}
+body{
+	background:#f7f7f7;
+	font-size:12px;
+	line-height:1.4;
+	font-family:arial;
+	padding-bottom:10px;
+}
+a img{border:none;}
+li{list-style-type:none;}
+a{text-decoration:none;}
+a:hover{ text-decoration:underline;}
+#header .nav a:hover{ text-decoration:none;}
+input{vertical-align:middle;}
+table{border-collapse:collapse;}
+img{vertical-align: middle;}
+
+#header a:hover,#main ul li a:hover,.footerCon-r a:hover,#secondPage a:hover{ color:#d33;}
+
+
+/* header start */
+#header{ height:144px; margin-bottom:4px;}
+	.header-top{ height:5px; background:#222; margin-bottom:15px; overflow:hidden;}
+	.headerLogo{ width:1000px; height:68px; margin:0 auto 10px;}
+	.headerLogo-r{ width:385px; height:68px; float:right; text-align:right; color:#555; margin-bottom:10px;}
+		.headerLogo-r a{ margin-left:5px; color:#555;}
+		.headerLogo-r span{ margin:0 10px 0 12px;}
+		.headerLogo-r .joinSociety{ width:70px; height:30px; line-height:30px; text-align:center; color:#fff; display:inline-block; margin-left:10px; background:url(../images/joinClubBtn.gif) no-repeat;}
+		#header .headerLogo-r .joinSociety:hover{ color:#fff;}
+		.collectSite{ margin-top:-3px; *margin-top:0px;}
+		.headerLogo-rt{ margin-top:8px;}
+		.headerLogo-rt a{ margin-right:18px;}
+	.nav{ width:1000px; height:44px; padding:2px; margin:0 auto; background:url(../images/navBj.jpg) repeat-x; position:relative; z-index:0;}
+		.navBj-l{ width:15px; height:46px; display:inline-block; background:url(../images/navBj-l.jpg) no-repeat left top; position:absolute; left:0; top:0; z-index:-1;}
+		.navBj-r{ width:9px; height:46px; display:inline-block; background:url(../images/navBj-r.jpg) no-repeat right top; position:absolute; right:0; top:0; z-index:-1;}
+		.nav a{ width:100px; height:40px; display:inline-block; line-height:40px; text-align:center; color:#555;}
+		.nav .homePage{ background:url(../images/nav-hover.gif) no-repeat; color:#fff;}
+		#header .homePage:hover{ color:#fff;}
+		.nav .memberIntrod{ background:url(../images/nav-hover2.gif) repeat-x; color:#fff;}
+		#header .nav .memberIntrod:hover{ color:#fff;}
+		.searchForm{ float:right; margin:5px 6px 0 0 ; display:inline; width:260px; height:30px; position:relative; z-index:10;}
+			.searchText{ background:url(../images/searchBj.jpg) no-repeat; width:220px; height:30px; padding-left:10px; color:#aaa; border:none; line-height:30px;}
+			.changeUsername{background:url(../images/searchBj.jpg) no-repeat; width:220px; height:30px; padding-left:10px; color:#555; border:none; line-height:30px;}
+			.searchBtn{ background:url(../images/searchBtn.jpg) no-repeat; width:30px; height:30px; position:absolute; right:0; top:0; border:none; cursor:pointer;}
+/* header end */
+
+/* banner start */
+#banner{ height:452px; background:url(../images/bannerBj.jpg) repeat-x left 52px;}
+	.bannerCon{ width:1004px; height:452px; background:url(../images/bannerbj-bj.jpg) repeat-y; margin:0 auto; position:relative;}
+		.bannerBj-top{ background:url(../images/bannerbj-top.jpg) no-repeat; width:1004px; height:5px; display:inline-block; overflow:hidden}
+		#pic{ width:980px; height:380px; margin:7px 0 6px 12px; display:inline-block;}
+		.bannerImg-bj{ width:489px; height:99px; background:#000; opacity:.6; filter:alpha(opacity=60); display:inline-block; position:absolute; top:203px; right:12px;}
+		.bannerCon p{ width:445px; height:75px; overflow:hidden; padding:12px 22px 0; font-size:25px; font-family:"微软雅黑"; position:absolute; top:203px; right:12px; line-height:35px; color:#fff;}
+		.bannerCon p a{ color:#fff;}
+		.links{ width:1004px; height:30px; padding-top:24px; background:url(../images/bannerbj-bottom.jpg) no-repeat; text-align:center;}
+		.links a{ width:12px; height:12px; background:url(../images/whiteDotted.gif) no-repeat center; margin:0 5px; display:inline-block;}
+		.links .linksActive{ background:url(../images/redDotted.gif) no-repeat center;}
+
+/* banner end */
+
+
+/* main start */
+#main{ width:1000px; height:230px; padding-top:25px; background:url(../images/main-b.jpg) no-repeat left top; margin:0 auto;}
+	.memberIntro,.textureaActi,.newMessage{ width:302px; height:230px;}
+	#main h3{ font-family:"微软雅黑"; font-size:20px; color:#6b6b6b; font-weight:100; margin-bottom:10px;}
+	#main h3 span{ font-size:30px; color:#d33}
+	#main h3 a{ font-size:12px; color:#d33; width:54px; height:31px; line-height:30px; text-align:center; float:right; display:inline-block; background:url(../images/moreBj.jpg) no-repeat; margin-top:8px;}
+	.memberIntro{ float:left;}
+		.memberIntro dl{ width:302px; height:176px; overflow:hidden;}
+		.memberIntro dt{ width:128px; height:168px; padding:8px 0 0 8px; background:url(../images/peopleImg-Bj.jpg) no-repeat; float:left;}
+		.memberIntro dd{ width:155px; line-height:22px; color:#555; float:right;}
+		.memberIntroDd1{ height:auto; max-height:154px; _height:154px; overflow:hidden;}
+		.memberIntro .memberIntroDd2{ color:#d33}
+	.textureaActi{ float:left; margin:0 47px; display:inline;}
+		.textureaActi ul{ height:168px; overflow:hidden;}
+		.textureaActi li,.newMessage li,.tissueActivity li{ background:url(../images/liBj.jpg) no-repeat 3px 9px; padding-left:11px; color:#d33; margin-bottom:4px; line-height:22px;}
+		.textureaActi li a,.newMessage li a,.tissueActivity li a{ color:#555; margin-right:8px;}
+	.newMessage{ float:right;}
+		.newMessageImg{ width:291px; height:58px; background:url(../images/newMessageBj.jpg) no-repeat; padding:8px 0 0 7px;}
+		.newMessage ul{ height:96px; overflow:hidden;}
+	
+#teamworkMate{ height:107px; padding-top:25px; background:url(../images/teamworkMateBj.jpg) repeat-x; margin-top:35px; clear:both;}
+	.teamworkMateCon{ width:1000px; margin:0 auto;}
+	.teamworkMateImg{ float:right}
+	.teamworkMateTitle{ padding-top:25px; display:inline-block; color:#fff; font-size:20px; font-family:"微软雅黑"}
+	.btn-l,.btn-r{ display:inline-block; float:left; padding-top:18px;}
+	.teamworkMateImgDiv{ width:840px; float:left; margin:0 5px; overflow:hidden; display:inline;}
+	.teamworkMateImgDivCon{ width:3360px;}
+	.teamworkMateImgDivCon a{  margin:0 15px; float:left; display:inline;}
+	.teamworkMateImgDivCon a img{width:170px; height:70px; border:5px solid #222; display:inline-block;}
+
+/* main end */
+
+/* secondPage start */
+#secondPage{ width:1000px; height:auto; min-height:490px; _height:490px; margin:0 auto;}
+	.secondPage-l{ width:206px; float:left; margin-bottom:35px;}
+		.secondPageL-t{ width:144px; height:auto; padding:10px 0 10px 62px; background:url(../images/secondPageL-c.jpg) repeat-y; position:relative; margin-bottom:8px;}
+			.secondPageL-t li,.secondPageL-b li{ line-height:26px;}
+			.secondPageL-t li a,.secondPageL-b li a{ color:#555}
+			.secondPageL-t .secondPageLActi a,.secondPageL-b .secondPageLActi a{ color:#d33;}
+			.secondPageL-tt,.secondPageL-tb{ width:206px; height:6px; position:absolute; left:0; overflow:hidden;}
+			.secondPageL-tt{ background:url(../images/secondPageL-t.jpg) no-repeat; top:0;}
+			.secondPageL-tb{ background:url(../images/secondPageL-tb.jpg) no-repeat; bottom:0;}
+		.secondPageL-b{ width:150px; height:auto; padding:20px 0 72px 56px; min-height:110px; _height:110px; background:url(../images/secondPageL-c.jpg) repeat-y; position:relative;}
+			.secondPageL-bb{width:206px; height:62px; position:absolute; left:0; bottom:0; background:url(../images/secondPageL-b.jpg) no-repeat;}
+			.secondPageL-b li{ background:url(../images/liBj.jpg) no-repeat left center; padding-left:8px; width:100px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+			.secondPageL-b .secondPageLActi{ background:url(../images/liBj-red.jpg) no-repeat left center;}
+	
+	.secondPage-r{ width:760px; margin-right:18px; display:inline; padding:20px 0 90px 0; float:right;}
+		.secondPageR-h3{ height:60px; font-family:"微软雅黑"; background:url(../images/secondPageR-bj.jpg) no-repeat center bottom; color:#555; font-size:14px; padding-left:12px; font-weight:100;}
+		.secondPageR-h3 span{ font-size:20px; color:#000; margin-right:15px;}
+		.secondPageR-Img{ background:url(../images/peopleImg-Bj.jpg) no-repeat; display:inline-block; float:left; height:168px; padding:8px 0 0 8px; width:128px; margin:0 15px 15px 0;}
+		.secondPage-r p{ text-indent:2em; line-height:24px; color:#555; margin-bottom:3px;}
+		.secondPage-r-div{ padding:0 30px 0 10px;}
+		
+	/* 会员介绍 */
+		.memberIntrodImg dl{ margin:0 25px 15px; width:136px; height:240px; float:left; display:inline; overflow:hidden;padding-bottom:10px;}
+		.memberIntrodImg dt{ background:url(../images/peopleImg-Bj.jpg) no-repeat; height:168px; padding:8px 0 0 8px; width:128px;}
+		.memberIntrodImg dd{ scolor:#555; text-align:center; padding:0 3px;}
+		.memberIntrodImg dd a{ color:#d33; font-weight:bold;}
+		.memberIntrodImg .memberIntrodImgDd1{ padding:3px;}
+		
+	/* 合作伙伴 */
+		.teamworkPartner{ padding-left:25px;}
+		.teamworkPartner a{ border:5px solid #ccc4c4; display:inline-block; height:70px; margin:0 25px 40px; width:170px;}
+		.teamworkPartner a img{ width:170px; height:70px;}
+		
+	/* 组织活动 */
+		.tissueActivity{ padding:10px 50px 0 30px;}
+		.tissueActivity li{ margin-bottom:6px;}
+		.tissueActivityCon h3{ font-family:"微软雅黑"; background:url(../images/secondPageR-bj.jpg) no-repeat center bottom; color:#555; font-size:20px; font-weight:100; height:auto; min-height:20px; line-height:30px; _height:20px; text-align:center; padding:0 50px 40px;}
+		.tissueActivityCon img{ float:left; margin:20px 20px 20px 0;}
+		.tissueActivityCon .tissueActivityConImg{ background:url(../images/peopleImg-Bj.jpg) no-repeat; display:inline-block; float:left; height:160px; padding:8px; width:120px; margin:0 15px 15px 0;}
+		.tissueActivityCon .secondPage-r-div{ padding:0 30px;}
+
+
+/* secondPage end */
+
+
+
+/* footer start */
+#footer{ height:77px; background:url(../images/footerBj.jpg) repeat-x; line-height:77px;}
+	.footerCon{ width:1000px; margin:0 auto;}
+	.footerConEng{ color:#555;}
+	.footerCon-r{ float:right; color:#aaa;}
+	.footerCon-r a{ color:#aaa;}
+	.footerCon-r .returnTop{ color:#d33; margin-left:20px; padding-left:14px; background:url(../images/returnBj.gif) no-repeat left center;}
+	
+/* footer end */
+

@@ -1,0 +1,31 @@
+<div class="header-top"></div>
+<div class="headerLogo">
+	<div class="headerLogo-r">
+		<div><img src="images/star.jpg" class="collectSite">
+		<a href="#" title="收藏本站到你的收藏夹" onclick="javascript:addBookmark()">收藏本站</a>
+		<span>|</span><img src="images/sinaLogo.jpg" /><a href="http://weibo.com/ceibsmobi" target="_blank">协会微博</a>
+		<a href="http://www.gudongqun.com/x/fzzpzz" target="_blank" class="joinSociety">加入协会</a></div>
+		<div class="headerLogo-rt"><a href="http://www.ceibs.edu/index_cn.shtml" target="_blank" ><img src="images/ceibsLogo.jpg" /></a><img src="images/ceibsFont.jpg" /></div>
+	</div>
+	<a href="/" name="top"><img src="images/logo.jpg" /></a>
+</div>
+<div class="nav">
+	<!--Google站内搜索开始-->
+	<form class="searchForm" method=get onsubmit="javascript:setSearchDomain(this)"  action="http://www.google.com/search" target="_blank">
+		<input type=text name=q value="请输入关键字" class="searchText" id="searchText" onfocus="checkFocus()" onblur="checkForm()" />
+		<input type=submit name=btnG value="" class="searchBtn" />
+		<input type=hidden name=ie value=UTF-8 />
+		<input type=hidden name=oe value=UTF-8 />
+		<input type=hidden name=hl value=zh-CN />
+		<input type=hidden name=domains value="www.ceibsmobi.com" />
+		<input type=hidden name=sitesearch value="www.ceibsmobi.com" />
+	</form>
+	<!--Google站内搜索结束-->
+
+	<div class="navCon">
+		<?=$strPriTypeListHeader?>
+	</div>
+	<span class="navBj-l"></span>
+	<span class="navBj-r"></span>
+</div>
+
