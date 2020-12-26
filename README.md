@@ -11,7 +11,7 @@ docker run \
     -e MYSQL_USER \
     -e MYSQL_PASS \
     -e MYSQL_DATABASE \
-    -p 8888:80 \
+    -p 8080:80 \
     ghcr.io/zixia/ceibsmobi.com
 ```
 
