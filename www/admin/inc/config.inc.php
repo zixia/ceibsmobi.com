@@ -11,14 +11,11 @@ function logString($srcFile, $logString)
 //数据库字段
 /////////////////////////////////////////////
 ///                   设置网站使用数据库连接参数
-///设置数据库服务器地址
-$dbhost = '127.0.0.1';
-///设置数据库登陆用户名
-$dbuser = 'ceibsmobi';
-///设置数据库登陆密码
-$dbpass = 'tongliqun123';
-///设置数据库名称
-$dbname = 'ceibsmobi';
+$dbhost = getenv('MYSQL_HOST');		// 设置数据库服务器地址
+$dbuser = getenv('MYSQL_USER');		// 设置数据库登陆用户名
+$dbpass = getenv('MYSQL_PASS');		// 设置数据库登陆密码
+$dbname = getenv('MYSQL_DATABASE');	//设置数据库名称
+
 //*///////////////////////////////////////////////////
 //////////////////////////////////////////////
 ///                   设置网站使用数据库默认前缀
