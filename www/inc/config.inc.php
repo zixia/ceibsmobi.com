@@ -13,15 +13,20 @@ function logString($srcFile, $logString)
 /////////////////////////////////////////////
 ///                   设置网站使用数据库连接参数
 ///设置数据库服务器地址
-$dbhost = '127.0.0.1';
+// $dbhost = '127.0.0.1';
+$dbhost = getenv('MYSQL_HOST');
 
 ///设置数据库登陆用户名
-$dbuser = 'dbuser_from_env';
+// $dbuser = 'dbuser_from_env';
+$dbuser = getenv('MYSQL_USER');
 
 ///设置数据库登陆密码
-$dbpass = 'PASSWORD-from-env';
+// $dbpass = 'PASSWORD-from-env';
+$dbpass = getenv('MYSQL_PASS');
+
 ///设置数据库名称
-$dbname = 'ceibsmobi';
+// $dbname = 'ceibsmobi';
+$dbname = getenv('MYSQL_DATABASE');
 
 //*///////////////////////////////////////////////////
 //////////////////////////////////////////////
