@@ -12,7 +12,7 @@ docker run \
     -e MYSQL_PASS \
     -e MYSQL_DATABASE \
     -p 8888:80 \
-    ceibsmobi
+    ghcr.io/zixia/ceibsmobi.com
 ```
 
 ## Maintainer
