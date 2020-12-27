@@ -62,7 +62,7 @@ $hosturl = $_SERVER['HTTP_HOST'];        //获取网站URL
 $CONFIG_WEB_URL = str_replace("\\","/","https://$hosturl$dummydir");
 // logString(__FILE__, "CONFIG_WEB_URL: ".$CONFIG_WEB_URL);
 
-define("ADMIN_ROOT", "http://$hosturl/".substr($dummydir, 0, strrpos($dummydir, "web"))."admin/");
+define("ADMIN_ROOT", "https://$hosturl/".substr($dummydir, 0, strrpos($dummydir, "web"))."admin/");
 // logString(__FILE__, "ADMIN_ROOT: ".ADMIN_ROOT);
 
 $Default_Img_Folder = $CONFIG_WEB_URL."images/default/";
