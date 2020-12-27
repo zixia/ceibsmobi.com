@@ -57,7 +57,7 @@ $dummydir = substr($php_self,0,strlen($php_self)-strlen("admin.php"));
 $hosturl = $_SERVER['HTTP_HOST'];        //获取网站URL
 // logString(__FILE__, "hosturl: ".$hosturl);
 
-define("BASE_URL",str_replace("\\","/","http://$hosturl$dummydir"));
+define("BASE_URL",str_replace("\\","/","https://$hosturl$dummydir"));
 $Default_Img_Folder = BASE_URL."images/default/";
 
 define("CONFIG_WEB_URL",BASE_URL);
