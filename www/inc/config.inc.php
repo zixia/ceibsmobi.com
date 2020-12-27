@@ -59,7 +59,7 @@ $dummydir = substr($php_self,0,strrpos($php_self, '/') + 1);
 $hosturl = $_SERVER['HTTP_HOST'];        //获取网站URL
 // logString(__FILE__, "hosturl: ".$hosturl);
 
-$CONFIG_WEB_URL = str_replace("\\","/","http://$hosturl$dummydir");
+$CONFIG_WEB_URL = str_replace("\\","/","https://$hosturl$dummydir");
 // logString(__FILE__, "CONFIG_WEB_URL: ".$CONFIG_WEB_URL);
 
 define("ADMIN_ROOT", "http://$hosturl/".substr($dummydir, 0, strrpos($dummydir, "web"))."admin/");

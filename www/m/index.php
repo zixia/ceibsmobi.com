@@ -151,7 +151,7 @@ a {
 </div>
 
 <div  class="footer">
-	<a href="http://ceibsmobi.com">返回协会首页</a>
+	<a href="https://ceibsmobi.com">返回协会首页</a>
 	<div class="copyright">中欧移动互联网协会 &nbsp; 版权所有</div>
 </div>
 

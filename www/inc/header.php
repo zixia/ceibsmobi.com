@@ -14,7 +14,7 @@
 <!--
 	http://www.baidu.com/baidu?tn=bds&cl=3&ct=2097152&si=www.sohu.com&word=%E4%B8%AD%E6%AC%A7
 -->
-	<form class="searchForm" method=get onsubmit="javascript:setSearchDomainBaidu(this)" action="http://www.baidu.com/baidu" target="_blank">
+	<form class="searchForm" method=get onsubmit="javascript:setSearchDomainBaidu(this)" action="https://www.baidu.com/baidu" target="_blank">
 		<input type=text name=word value="请输入关键字" class="searchText" id="searchText" onfocus="checkFocus()" onblur="checkForm()" /> 
 		<input type="submit" value="" class="searchBtn" />
 		<input name=tn type=hidden value="bds" />

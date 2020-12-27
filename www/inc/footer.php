@@ -43,9 +43,9 @@ for($i=0; $row = mysql_fetch_array($result_src_list); $i++)
     	<div class="footerCon-r">
 			<a href="<?=$CONFIG_WEB_URL?>news/4.html">关于我们</a>
 			丨<a href="<?=$CONFIG_WEB_URL?>news/5.html">联系我们</a>
-			丨<a href="http://www.ceibsmobi.com/news/11.html" target="_blank" >加入协会</a>
+			丨<a href="https://www.ceibsmobi.com/news/11.html" target="_blank" >加入协会</a>
 			丨<a href="<?=$CONFIG_WEB_URL?>partners.php">合作伙伴</a>
-            丨<script src="http://static.anquan.org/static/outer/js/official_authen_83x30.js"></script>
+            丨<script src="https://static.anquan.org/static/outer/js/official_authen_83x30.js"></script>
 			<a href="#top" class="returnTop" title="回到网页顶部">返回顶部</a>
 		</div>
     </div>

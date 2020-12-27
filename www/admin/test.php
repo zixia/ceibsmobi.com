@@ -29,7 +29,7 @@ function setSearchDomain(formname) {
 }
 </script>
 
-<form name="formSearch" onsubmit="javascript:setSearchDomain(this)" action="http://www.baidu.com/baidu" target="_blank"> 
+<form name="formSearch" onsubmit="javascript:setSearchDomain(this)" action="https://www.baidu.com/baidu" target="_blank"> 
 <input type=text name=word> 
 <input type="submit" value="baidu"> 
 <input name=tn type=hidden value="bds"> 
@@ -39,7 +39,7 @@ function setSearchDomain(formname) {
 </form> 
 
 <!--Google站内搜索开始-->
-<form method=get action="http://www.google.com/search" target="_blank">
+<form method=get action="https://www.google.com/search" target="_blank">
 <input type=text name=q>
 <input type=submit name=btnG value="Google">
 <input type=hidden name=ie value=GB2312>
