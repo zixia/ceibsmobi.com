@@ -7,10 +7,10 @@ CEIBS Alumni Mobile Club Website
 ```sh
 docker run \
     --rm -ti \
-    -e MYSQL_HOST \
-    -e MYSQL_USER \
-    -e MYSQL_PASS \
-    -e MYSQL_DATABASE \
+    -e CEIBSMOBI_MYSQL_HOST \
+    -e CEIBSMOBI_MYSQL_USER \
+    -e CEIBSMOBI_MYSQL_PASS \
+    -e CEIBSMOBI_MYSQL_DATABASE \
     -p 8080:80 \
     ghcr.io/zixia/ceibsmobi.com
 ```
