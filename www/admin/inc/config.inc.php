@@ -14,7 +14,7 @@ function logString($srcFile, $logString)
 $dbhost = getenv('CEIBSMOBI_MYSQL_HOST');		// 设置数据库服务器地址
 $dbuser = getenv('CEIBSMOBI_MYSQL_USER');		// 设置数据库登陆用户名
 $dbpass = getenv('CEIBSMOBI_MYSQL_PASS');		// 设置数据库登陆密码
-$dbname = getenv('CEIBSMOBI_MYSQL_DATABASE');	//设置数据库名称
+$dbname = 'ceibsmobi';	//设置数据库名称
 
 //*///////////////////////////////////////////////////
 //////////////////////////////////////////////
