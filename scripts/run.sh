@@ -13,7 +13,7 @@ docker run \
   -p 8080:80 \
   -v /tmp:/var/www/admin/UploadFiles/ \
   --entrypoint bash \
-  ghcr.io/zixia/ceibsmobi.com
+  ceibsmobi.com
+#  ghcr.io/zixia/ceibsmobi.com
 
-#  ceibsmobi.com
 

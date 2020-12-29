@@ -9,6 +9,11 @@ test:
 build:
 	docker build -t ceibsmobi.com .
 
+.PHONY: pull
+pull:
+	docker pull ghcr.io/zixia/apache-php56:onbuild
+	docker pull ghcr.io/zixia/ceibsmobi.com
+
 .PHONY: run
 run:
 	./scripts/run.sh
