@@ -2,6 +2,8 @@
 
 CEIBS Alumni Mobile Club Website
 
+![CEIBS Alumni Mobile Club Website](docs/images/ceibsmobi-website.webp)
+
 ## Usage
 
 ```sh
